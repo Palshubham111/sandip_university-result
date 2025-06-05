@@ -1,0 +1,47 @@
+.pdf-content {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin: 0 1.25rem;
+}
+
+.pdf-header {
+  display: flex;
+  justify-content: center;
+}
+
+.pdf-logo {
+  height: 6rem;
+  margin-bottom: 1.5rem;
+}
+
+.pdf-exam-header {
+  height: 5rem;
+  background-color: #d1d5db;
+  padding: 1rem;
+}
+
+.pdf-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.pdf-table th,
+.pdf-table td {
+  border: 1px solid #000000;
+  padding: 0.5rem;
+}
+
+.pdf-button {
+  background-color: #dc2626;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+.pdf-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+} 
